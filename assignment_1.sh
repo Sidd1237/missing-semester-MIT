@@ -14,7 +14,7 @@ echo 'curl --head --silent https://missing.csail.mit.edu' >> semester
 
 #9
 chmod u+x semester
-:'When the shell executes a file with the first line a s #!/bin/sh, it parses the rest of the file's initial line (/bin/sh) as an interpreter directive (which interpreter to use). The loader executes the specified interpreter program, passing the original text file path as the argument.
+: 'When the shell executes a file with the first line a s #!/bin/sh, it parses the rest of the file\'s initial line (/bin/sh) as an interpreter directive (which interpreter to use). The loader executes the specified interpreter program, passing the original text file path as the argument.
 '
 
 #10
